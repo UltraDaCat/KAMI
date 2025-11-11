@@ -15,6 +15,9 @@ namespace KAMI.Core.Games
                 "BLES00246" or "BLJM67001" or "BLUS30109" when version is "02.00" => 0x559ac0u,
                 // digital
                 "NPUB31633" or "NPEB02182" or "NPJB00698" when version is "02.00" => 0x549640u,
+                // mgo2
+                "NPMG00010" when version is "00.30" => 0x549640u,
+                
                 _ => throw new NotImplementedException($"{nameof(MetalGearSolid4)} ['{id}', v'{version}'] is not implemented"),
             };
         }
