@@ -51,6 +51,7 @@ namespace KAMI.Core
                 case "SCUS-97353": return new Ratchet3PS2(ipc);
                 case "SCUS-97465": return new RatchetDLPS2(ipc);
                 case "SLUS-21376": return new BlackPS2(ipc);
+                case "NPMG00010":
                 case "NPUB31633":
                 case "NPEB02182":
                 case "NPJB00698":
